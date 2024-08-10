@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyKyTucXaTK101", "QuanLyKyTucXaTK101\QuanLyKyTucXaTK101.csproj", "{1A873853-761B-4801-B7D6-C7656C1EF82A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.ActiveCfg = Debug|x86
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.Build.0 = Debug|x86
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|x86.ActiveCfg = Release|x86
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
