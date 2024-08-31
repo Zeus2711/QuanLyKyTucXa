@@ -4,6 +4,7 @@ using System.Text;
 
 namespace QuanLyKyTucXaTK101.Entities
 {
+    //Khai báo lớp Dang Nhap
      public class DangNhap
     {   
         private string user;
