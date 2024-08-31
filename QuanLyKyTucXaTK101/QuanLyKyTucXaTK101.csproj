@@ -1,99 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <TargetFramework>net8.0</TargetFramework>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1A873853-761B-4801-B7D6-C7656C1EF82A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QuanLyKyTucXaTK101</RootNamespace>
-    <AssemblyName>QuanLyKyTucXaTK101</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-    <FileAlignment>512</FileAlignment>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
-    <PlatformTarget>x86</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>QuanLyKyTucXaTK101</AssemblyTitle>
+    <Product>QuanLyKyTucXaTK101</Product>
+    <Copyright>Copyright ©  2013</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Business\component\DanhNhapBLL.cs" />
-    <Compile Include="Business\component\DayPhongBLL.cs" />
-    <Compile Include="Business\component\HoaDonThanhToanBLL.cs" />
-    <Compile Include="Business\component\KhoaBLL.cs" />
-    <Compile Include="Business\component\PhongBLL.cs" />
-    <Compile Include="Business\component\SinhVienBLL.cs" />
-    <Compile Include="Business\component\ThuePhongBLL.cs" />
-    <Compile Include="Business\component\DienBLL.cs" />
-    <Compile Include="Business\component\TraPhongBLL.cs" />
-    <Compile Include="Entities\DangNhap.cs" />
-    <Compile Include="Entities\DayPhong.cs" />
-    <Compile Include="Entities\HoaDonThanhToan.cs" />
-    <Compile Include="Entities\Khoa.cs" />
-    <Compile Include="Entities\Phong.cs" />
-    <Compile Include="Entities\SinhVien.cs" />
-    <Compile Include="Entities\ThuePhong.cs" />
-    <Compile Include="Entities\Dien.cs" />
-    <Compile Include="Entities\TraPhong.cs" />
-    <Compile Include="Data AccessLayer\component\DangNhapDAL.cs" />
-    <Compile Include="Data AccessLayer\component\DataAccessHelper.cs" />
-    <Compile Include="Data AccessLayer\component\DayPhongDAL.cs" />
-    <Compile Include="Data AccessLayer\component\HoaDonThanhToanDAL.cs" />
-    <Compile Include="Data AccessLayer\component\KhoaDAL.cs" />
-    <Compile Include="Data AccessLayer\component\PhongDAL.cs" />
-    <Compile Include="Data AccessLayer\component\SinhVienDAL.cs" />
-    <Compile Include="Data AccessLayer\component\ThuePhongDAL.cs" />
-    <Compile Include="Data AccessLayer\component\DienDAL.cs" />
-    <Compile Include="Data AccessLayer\component\TraPhongDAL.cs" />
-    <Compile Include="Presetation\DoHoa.cs" />
-    <Compile Include="Presetation\FormDienNuoc.cs" />
-    <Compile Include="Presetation\FormDayPhong.cs" />
-    <Compile Include="Presetation\FormPhong.cs" />
-    <Compile Include="Presetation\FormSinhVien.cs" />
-    <Compile Include="Presetation\FormThongKe.cs" />
-    <Compile Include="Presetation\FormThongTinKhac.cs" />
-    <Compile Include="Presetation\FormThueTraPhong.cs" />
-    <Compile Include="Presetation\FormTimKiem.cs" />
-    <Compile Include="Presetation\FormDangNhap.cs" />
-    <Compile Include="Presetation\MenuChinh.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utility\CongCu.cs" />
-    <Compile Include="Utility\List.cs" />
-  </ItemGroup>
-  <ItemGroup />
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>

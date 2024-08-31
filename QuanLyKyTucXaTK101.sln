@@ -1,16 +1,23 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyKyTucXaTK101", "QuanLyKyTucXaTK101\QuanLyKyTucXaTK101.csproj", "{1A873853-761B-4801-B7D6-C7656C1EF82A}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuanLyKyTucXaTK101", "QuanLyKyTucXaTK101\QuanLyKyTucXaTK101.csproj", "{1A873853-761B-4801-B7D6-C7656C1EF82A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.ActiveCfg = Debug|x86
-		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.Build.0 = Debug|x86
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|x86.ActiveCfg = Release|x86
 		{1A873853-761B-4801-B7D6-C7656C1EF82A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
